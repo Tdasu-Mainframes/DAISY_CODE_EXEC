@@ -1,0 +1,513 @@
+1    LISTLOAD  DDN=AMBLIB,MEMBER=REFDAISY
+1                                  *****  M O D U L E   S U M M A R Y  *****
+0    MEMBER NAME:  REFDAISY                                                               MAIN ENTRY POINT:    00000000
+0    LIBRARY:      AMBLIB                                                                 AMODE OF MAIN ENTRY POINT: 31
+0        NO ALIASES **
+-------------------------------------------------------------------------------------------------------------------------
+0                       ****          ATTRIBUTES OF MODULE           ****
+0                **   BIT  STATUS         BIT  STATUS         BIT  STATUS         BIT  STATUS   **
+0                      0  RENT             1  REUS             2  NOT-OVLY         3  NOT-TEST
+                       4  NOT-OL           5  BLOCK            6  EXEC             7  MULTI-RCD
+                       8  NOT-DC           9  ZERO-ORG         10 EP-ZERO          11 RLD
+                       12 EDIT             13 NO-SYMS          14 F-LEVEL          15 NOT-REFR
+0------------------------------------------------------------------------------------------------------------------------
+-                                    MODULE SSI:        NONE
+                                     APFCODE:           00000000
+                                     RMODE:             ANY
+                                     LONGPARM:          NO
+
+
+0                   *****LOAD MODULE PROCESSED EITHER BY VS LINKAGE EDITOR OR BINDER
+1                                        LISTING OF LOAD MODULE REFDAISY                                    PAGE 0001
+
+0
+0RECORD# 1     TYPE 20 - CESD     ESDID 1                      ESD SIZE 240
+0               CESD#    SYMBOL    TYPE     ADDRESS     R/R/A    ID/LENGTH(DEC)   (HEX)
+                   1    CEESTART  00(SD)     000000      07            124          7C
+                   2    CEEMAIN   00(SD)     000360      07             12           C
+                   3    CEEFMAIN  0A(WX)     000000
+                   4    CEEBETBL  00(SD)     0006F8      07             40          28
+                   5    CEEROOTA  00(SD)     000508      07            496         1F0
+                   6              04(PC)     000080      07            736         2E0
+                   7    BYREF     03(LR)     000118      07              6           6
+                   8    MAIN      03(LR)     0001E0      07              6           6
+                   9    FOPEN     03(LR)     0004F8      07             26          1A
+                  10    FGETS     03(LR)     0004E8      07             25          19
+                  11    FCLOSE    03(LR)     0004D8      07             24          18
+                  12    PRINTF    03(LR)     0004C8      07             23          17
+                  13    EDCINPL   00(SD)     0004A0      07             36          24
+                  14    CEESG003  00(SD)     000370      07            299         12B
+                  15    @@XINIT@  0A(WX)     000000
+0RECORD# 2     TYPE 20 - CESD     ESDID 16                     ESD SIZE 240
+0               CESD#    SYMBOL    TYPE     ADDRESS     R/R/A    ID/LENGTH(DEC)   (HEX)
+                  16    @@INIT@   0A(WX)     000000
+                  17    CTDLI     0A(WX)     000000
+                  18    @@DLL     0A(WX)     000000
+                  19    @@DLLUX   0A(WX)     000000
+                  20    @@DLLI    0A(WX)     000000
+                  21    CBCSG003  0A(WX)     000000
+                  22    @@PPA2    0A(WX)     000000
+                  23    printf    00(SD)     0004C8      07             10           A
+                  24    fclose    00(SD)     0004D8      07             10           A
+                  25    fgets     00(SD)     0004E8      07             10           A
+                  26    fopen     00(SD)     0004F8      07             10           A
+                  27    CEEROOTD  03(LR)     000508      07              5           5
+                  28    CEEROOTB  0A(WX)     000000
+                  29    CEEINT    03(LR)     0009F8      06             60          3C
+                  30    CEEOPIPI  0A(WX)     000000
+0RECORD# 3     TYPE 20 - CESD     ESDID 31                     ESD SIZE 240
+0               CESD#    SYMBOL    TYPE     ADDRESS     R/R/A    ID/LENGTH(DEC)   (HEX)
+                  31    CEEARLU   00(SD)     000940      07            184          B8
+                  32    CEESG010  0A(WX)     000000
+                  33    IBMSEMNA  0A(WX)     000000
+                  34    EDCDMAIN  0A(WX)     000000
+                  35    PLIMAIN   0A(WX)     000000
+                  36    CEEBXITA  0A(WX)     000000
+                  37    CEEBINT   00(SD)     000938      07              8           8
+                  38    CEEBLLST  00(SD)     0008D8      07             92          5C
+                  39    CEEUOPT   0A(WX)     000000
+                  40    CEEBTRM   00(SD)     000790      07            116          74
+1                                        LISTING OF LOAD MODULE REFDAISY                                    PAGE 0002
+
+0                 41    CEEBPUBT  00(SD)     000720      07            112          70
+                  42    IEWBLIT   0A(WX)     000000
+                  43    CEECPYRT  00(SD)     000808      07            207          CF
+                  44    CEELLIST  03(LR)     0008E8      07             38          26
+                  45    CEESG000  0A(WX)     000000
+0RECORD# 4     TYPE 20 - CESD     ESDID 46                     ESD SIZE 240
+0               CESD#    SYMBOL    TYPE     ADDRESS     R/R/A    ID/LENGTH(DEC)   (HEX)
+                  46    CEESG001  0A(WX)     000000
+                  47    CEESG002  0A(WX)     000000
+                  48    CEESG004  0A(WX)     000000
+                  49    CEESG005  0A(WX)     000000
+                  50    CEESG006  0A(WX)     000000
+                  51    CEESG007  0A(WX)     000000
+                  52    CEESG008  0A(WX)     000000
+                  53    CEESG009  0A(WX)     000000
+                  54    CEESG011  0A(WX)     000000
+                  55    CEESG012  0A(WX)     000000
+                  56    CEESG013  0A(WX)     000000
+                  57    CEESG014  0A(WX)     000000
+                  58    CEESG015  0A(WX)     000000
+                  59    CEESG016  0A(WX)     000000
+                  60    CEEBPIRA  00(SD)     0009F8      06            672         2A0
+0RECORD# 5     TYPE 20 - CESD     ESDID 61                     ESD SIZE 32
+0               CESD#    SYMBOL    TYPE     ADDRESS     R/R/A    ID/LENGTH(DEC)   (HEX)
+                  61    CEEBPIRB  03(LR)     0009F8      06             60          3C
+                  62    CEEBPIRC  03(LR)     0009F8      06             60          3C
+0RECORD# 6     TYPE 80 - IDR    SUBTYPE 01                    DATA SIZE 248
+0            00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000
+             00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000
+             00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000
+             00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000
+             00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000
+             00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000  00000000
+             00000000  00000000
+0RECORD# 7     TYPE 80 - IDR    SUBTYPE 02                    DATA SIZE 19
+0            F5F6F9F5  D7D4C2F0  F1400204  21052F01  31134F
+0RECORD# 8     TYPE 80 - IDR    SUBTYPE 04                    DATA SIZE 99
+0            00010002  800600F5  F6F5F0E9  D6E24040  40020421  052F0004  000D000E  00170018  0019001A  00260028
+             0029802B  00F5F6F9  F6F2F3F4  F0F04001  0619071F  0005001F  0025803C  01F5F6F9  F6F2F3F4  F0F04001
+             0619071F  D7D361E7  60F3F9F0  40400204  19071F
+1                                        LISTING OF LOAD MODULE REFDAISY                                    PAGE 0003
+
+0RECORD# 9     TYPE 80 - IDR    SUBTYPE 88                    DATA SIZE 17
+0            000D1907  1F0BD9E2  C9F9F0F7  F1F5F7F5  F0
+0RECORD# 10    TYPE 01 - CONTROL            CONTROL SIZE 72                  RLD/CTL COUNT 3   CCW 06000000 40000C98
+0                 CESD#   LENGTH
+                     1     0080
+                     6     02E0
+                     2     0010
+                    14     0130
+                    13     0028
+                    23     0010
+                    24     0010
+                    25     0010
+                    26     0010
+                     5     01F0
+                     4     0028
+                    41     0070
+                    40     0078
+                    43     00D0
+                    38     0060
+                    37     0008
+                    31     00B8
+                    60     02A0
+0RECORD# 11                                             T E X T
+ 000000    47000000 47000002 90ECD00C 053047F0 30180014 CE03020F 0000002C C3C5C5E2   *...............0............CEES*
+ 000020    E3C1D9E3 000058F0 306A050F 00000360 00000000 00000000 00000000 00000000   *TART...0.|.....-................*
+ 000040    FFFF004C 00000000 00000000 00000000 00000000 00000000 00000000 00000000   *...<............................*
+ 000060    00000012 00000000 00000000 00000000 00000000 000006F8 00000508 00000000   *.......................8........*
+ 000080    F2F0F2F1 F0F2F2F1 F1F3F1F1 F3F3F0F2 F0F4F0F0 007E0908 0A0A0009 00000000   *20210221131133020400.=..........*
+ 0000A0    00004204 00000000 0000040C 0000C801 C4FC00C8 0860008C 80400058 0BFFD9C5   *..............H.D..H.-... ....RE*
+ 0000C0    C6C4C1C9 E2E8000F 00C4F1F9 F0F3F2F2 4BE9C4D3 E3000F09 C4F1F9F0 F3F2F24B   *FDAISY...D190322.ZDLT...D190322.*
+ 0000E0    E9C4D3E3 000F0AC4 F1F9F0F3 F2F24BE9 C4D3E300 0F0DC4F1 F9F0F3F2 F24BE9C4   *ZDLT...D190322.ZDLT...D190322.ZD*
+ 000100    D3E3000F 11C4F1F9 F0F3F2F2 4BE9C4D3 E3000000 00000000 47F0F024 01C3C5C5   *LT...D190322.ZDLT........00..CEE*
+ 000120    000000B0 000001B0 47F0F001 58F0C31C 184E05EF 00000000 A7F4000C 90E5D00C   *.........00..0C..+......x4...V..*
+ 000140    58E0D04C 4100E0B0 5500C314 A724FFF0 58F0C280 90F0E048 9210E000 50D0E004   *...<......C.x..0.0B..0..k...&...*
+ 000160    18DEC030 00000039 C0500000 00A45010 D0AC58F0 30001805 4110D098 5000D098   *.........&...u&....0.......q&..q*
+ 000180    4100500C 5000D09C 0DEF180F 5000D0A8 5810D0AC 58201000 58F03004 4110D098   *..&.&.......&..y.........0.....q*
+ 0001A0    5020D098 E54CD09C 00505000 D0A00DEF 5800D0A8 58F03008 4110D098 5000D098   *&..qV<...&&........y.0.....q&..q*
+ 0001C0    0DEF58D0 D00458E0 D00C9825 D01C051E 07070000 000004F8 000004E8 000004D8   *..........q............8...Y...Q*
+ 0001E0    47F0F024 01C3C5C5 000000C8 00000128 47F0F001 58F0C31C 184E05EF 00000000   *.00..CEE...H.....00..0C..+......*
+ 000200    A7F4000C 90E5D00C 58E0D04C 4100E0C8 5500C314 A724FFF0 58F0C280 90F0E048   *x4...V.....<...H..C.x..0.0B..0..*
+ 000220    9210E000 50D0E004 18DEC030 0000003D C0500000 0040D204 D0A8500E 9200D0AD   *k...&............&... K..y&.k...*
+ 000240    D217D0AE D0AD4100 D0A858F0 30004120 50144110 D0985020 D0985000 D09C0DEF   *K........y.0....&....q&..q&.....*
+ 000260    4100D0A8 58F03004 4110D098 5000D098 0DEF4100 D0A858F0 30004120 50144110   *...y.0.....q&..q.....y.0....&...*
+ 000280    D0985020 D0985000 D09C0DEF 41F00000 180D58D0 D00458E0 D00C9825 D01C051E   *.q&..q&......0............q.....*
+ 0002A0    07070000 000004C8 00000118 00000000 61618484 7AE2E3D9 C9D5C700 9900D1C1   *.......H..........dd:STRING.r.JA*
+ 0002C0    D2C500C9 6CA21500 1CCEA106 00000230 00000000 00000000 FF000000 00000000   *KE.I%s..........................*
+ 0002E0    90000000 00400012 00000000 5000005D FFFFFE50 38280000 40080055 00000000   *..... ......&..)...&.... .......*
+ 000300    000582A8 99858640 1CCEA106 00000168 00000000 00000000 FF000000 00000000   *..byref ........................*
+ 000320    90000000 00400012 00000000 50000061 FFFFFED8 38280000 40090058 00000000   *..... ......&......Q.... .......*
+ 000340    00049481 89950000 03002203 FFFFFCB8 00000000 FFFFFD38 00000000 02000000   *..main..........................*
+1                                        LISTING OF LOAD MODULE REFDAISY                                    PAGE 0004
+
+0000360    01000001 000001E0 000004A0 00000000 E2F0F0F3 00E40101 00000000 00000000   *................S003.U..........*
+ 000380    00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000   *................................*
+ 0003A0    00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000   *................................*
+ 0003C0    00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000   *................................*
+ 0003E0    00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000   *................................*
+ 000400    00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000   *................................*
+ 000420    00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000   *................................*
+ 000440    00000000 00000000 00000000 00000000 00000000 C3D6D7E8 D9C9C7C8 E37A40F5   *....................COPYRIGHT: 5*
+ 000460    F6F4F760 C1F0F140 40404040 C9C2D440 C3D6D9D7 4B40F1F9 F8F86B40 F2F0F0F0   *647-A01     IBM CORP. 1988, 2000*
+ 000480    4B407E7E 6EC5C4C3 E2C7F0F0 F34DC15D 7AC2C1E2 C5F2F1F0 4C7E7E00 00000000   *. ==>EDCSG003(A):BASE210<==.....*
+ 0004A0    00000364 00000008 01000000 00000364 00000000 000006F8 00000003 00000000   *.......................8........*
+ 0004C0    00000000 00000000 58F0C210 58F0F150 07FF0000 00000000 58F0C210 58F0F130   *.........0B..01&.........0B..01.*
+ 0004E0    07FF0000 00000000 58F0C210 58F0F170 07FF0000 00000000 58F0C210 58F0F138   *.........0B..01..........0B..01.*
+ 000500    07FF0000 00000000 05B047F0 B014C3C5 C5D9D6D6 E3C1F0F3 61F1F261 F1F9BF8F   *...........0..CEEROOTA03.12.19..*
+ 000520    B1E258A0 B1DEA784 00065580 B1DAA774 000955A0 B1D6A784 001D12AA A784001A   *.S....xd......x......Oxd....xd..*
+ 000540    12AAA784 000D1777 1587A7D4 0067158A A7B40064 BF7FB1D2 A7840060 91018003   *..xd.....gxM....x....".Kxd.-j...*
+ 000560    A7E4005C 91028003 A7740058 A7F40029 58F0B1CE 0DEF12CC A784000D BF7FB1CA   *xU.*j...x...x4...0......xd..."..*
+ 000580    A7840009 58F07000 58ED000C 980BD014 07FF12CC A784000B 5870C2B8 58F07D24   *xd...0......q.......xd....B..0'.*
+ 0005A0    41300001 41200001 07FF4110 0FFD41F0 00704100 00848900 00181610 0A0D5820   *...............0.....di.........*
+ 0005C0    8008BF7F B1C6A784 000758F0 B1C605EF 58A0B1DE 9801D014 58F0B1C2 0DEF12FF   *...".Fxd...0.F......q....0.B....*
+ 0005E0    A7840006 A7FE0008 A774000B 58208008 5870C2B8 58F07D24 41300002 07FFA7FE   *xd..x...x.........B..0'.......x.*
+ 000600    0004A774 00345870 C2B858F0 7D244130 00014120 000207FF BFFFB1BE A7840007   *..x.....B..0'...............xd..*
+ 000620    58E0D00C 981BD018 07FF4110 0FFD41F0 00744100 00848900 00181610 0A0DF5F6   *....q..........0.....di.......56*
+ 000640    F5F060E9 D6E24040 404040C3 D6D7E8D9 C9C7C8E3 40C9C2D4 40C3D6D9 D74B40F1   *50-ZOS     COPYRIGHT IBM CORP. 1*
+ 000660    F9F9F16B F2F0F1F9 4B400000 D7C1E3C3 C840C1D9 C5C14060 40C3C5C5 D9D6D6E3   *991,2019. ..PATCH AREA - CEEROOT*
+ 000680    C140F2F0 F1F94BF0 F7F14000 B182B184 B186B188 B18AB18C B18EB190 B192B194   *A 2019.071 ..b.d.f.h.........k.m*
+ 0006A0    B196B198 B19AB19C B19EB1A0 B1A2B1A4 B1A6B1A8 B1AAB1AC B1AEB1B0 B1B20000   *.o.q.........s.u.w.y............*
+ 0006C0    00000000 00000000 00000000 000009F8 00000000 00000000 00000940 00000000   *...............8........... ....*
+ 0006E0    00000000 00000000 00000000 00000360 07000000 00000000 0000000A 00000000   *...............-................*
+ 000700    00000938 000008D8 00000000 00000790 00000000 00000720 00000000 00000000   *.......Q........................*
+ 000720    D7E4C2E3 00000001 C3C5C5C2 C9D5C9E3 00000000 00000000 00000740 00000768   *PUBT....CEEBINIT........... ....*
+ 000740    C4D4E2E2 C5C7D3D7 D3D6C1C4 40404040 C3C5C5C2 C9D5C9E3 C0000000 00000000   *DMSSEGLPLOAD    CEEBINIT........*
+ 000760    FFFFFFFF FFFFFFFF C4D4E2E2 C5C7D3D7 D7E4D9C7 C5404040 C3C5C5C2 C9D5C9E3   *........DMSSEGLPPURGE   CEEBINIT*
+ 000780    00000000 00000000 FFFFFFFF FFFFFFFF 5850E06C 41400002 19944770 E02A5860   *.................&.%. ...m.....-*
+ 0007A0    501C1816 41110000 1BFF56F0 E0700ACC 12FF4780 E05E47F0 E04A4140 00031994   *&..........0.........;.0... ...m*
+ 0007C0    4770E05E 41605008 18060A09 12FF4780 E05E47F0 E04A47F0 E05E4110 0FFE41F0   *...;.-&..........;.0...0.;.....0*
+ 0007E0    00304100 00048900 00181610 0A0D18FC 180B58E0 D00C981C D01807FE 00000720   *......i...............q.........*
+ 000800    0000A000 00000000 F5F6F5F0 60E9D6E2 40404040 40C3D6D7 E8D9C9C7 C8E340C9   *........5650-ZOS     COPYRIGHT I*
+ 000820    C2D440C3 D6D9D74B 40F1F9F9 F16BF2F0 F1F94B40 40E4E240 C7D6E5C5 D9D5D4C5   *BM CORP. 1991,2019.  US GOVERNME*
+ 000840    D5E340E4 E2C5D9E2 40D9C5E2 E3D9C9C3 E3C5C440 D9C9C7C8 E3E24060 40E4E2C5   *NT USERS RESTRICTED RIGHTS - USE*
+ 000860    6B40C4E4 D7D3C9C3 C1E3C9D6 D540D6D9 40C4C9E2 C3D3D6E2 E4D9C540 D9C5E2E3   *, DUPLICATION OR DISCLOSURE REST*
+ 000880    D9C9C3E3 C5C440C2 E840C7E2 C140C1C4 D740E2C3 C8C5C4E4 D3C540C3 D6D5E3D9   *RICTED BY GSA ADP SCHEDULE CONTR*
+ 0008A0    C1C3E340 E6C9E3C8 40C9C2D4 40C3D6D9 D74B40D3 C9C3C5D5 E2C5C440 D4C1E3C5   *ACT WITH IBM CORP. LICENSED MATE*
+ 0008C0    D9C9C1D3 E2406040 D7D9D6D7 C5D9E3E8 40D6C640 C9C2D400 D3D3C8C4 00100001   *RIALS - PROPERTY OF IBM.LLHD....*
+ 0008E0    00000012 000008E8 00000000 00000000 00000000 00000370 00000000 00000000   *.......Y........................*
+ 000900    00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000   *................................*
+ 000920    00000000 00000000 00000000 00000000 00000000 00000000 07FE0000 00000000   *................................*
+ 000940    58C00010 58CC0000 58CC0004 58CC0144 BFCFC000 4780F022 BFCFC000 4780F022   *......................0.......0.*
+ 000960    07FC1BCC 07FEF5F6 F5F060E9 D6E24040 404040C3 D6D7E8D9 C9C7C8E3 40C9C2D4   *......5650-ZOS     COPYRIGHT IBM*
+ 000980    40C3D6D9 D74B40F1 F9F9F16B F2F0F1F9 4B400000 D7C1E3C3 C840C1D9 C5C14060   * CORP. 1991,2019. ..PATCH AREA -*
+ 0009A0    40C3C5C5 C1D9D3E4 40F2F0F1 F94BF0F7 F100F072 F074F076 F078F07A F07CF07E   * CEEARLU 2019.071.0.0.0.0.0:0@0=*
+ 0009C0    F080F082 F084F086 F088F08A F08CF08E F090F092 F094F096 F098F09A F09CF09E   *0.0b0d0f0h0.0.0.0.0k0m0o0q0.0.0.*
+ 0009E0    F0A0F0A2 00000000 00000000 00000000 07000000 00000000 18401851 18625820   *0.0s..................... ......*
+1                                        LISTING OF LOAD MODULE REFDAISY                                    PAGE 0005
+
+0000A00    F2281442 14621876 5E706004 95007000 A7840006 91027003 A714002A 58C00010   *2.......;.-.n...xd..j...x.......*
+ 000A20    58CC0000 58CC0004 58CC0144 BFCFC000 4780F074 183EBFCF C0004780 F04A05EC   *..................0.........0...*
+ 000A40    18E312CC 4770F076 0000C1C2 C5D5C440 E4F4F0F9 F360F9F2 41100FFD 41F0005C   *.T....0...ABEND U4093-92.....0.**
+ 000A60    41000004 89000018 16100A0D 1FCC183F 12CCA784 0006BF0F C2F8A774 00B85870   *....i.............xd....B8x.....*
+ 000A80    323058C0 00109140 C074A774 003A9180 C074A784 002A12EE A7B40027 58C0C000   *......j ..x...j...xd....x.......*
+ 000AA0    58C0C004 BFCFC144 A784001F BFCFC004 A784001B 48C0C028 A5C60000 A7CE0001   *......A.xd......xd......vF..x...*
+ 000AC0    A7740013 58C00010 58C0C000 58C0C004 58C0C144 58C0C004 BFCFC020 A7840005   *x.................A.........xd..*
+ 000AE0    180CA7F4 007D4120 70084100 20001B11 0A0858C0 322C166C 164CA7F4 0071A7F8   *..x4.'.................%.<x4..x8*
+ 000B00    00105820 70181812 41110000 1BFF56F0 32180ACC 12FFA784 0006A7FE 000CA774   *...............0......xd..x...x.*
+ 000B20    000C1801 58C0322C 164C12FF A774004F 166CA7F4 004C4120 70080700 4110314C   *.........<..x....%x4.<.........<*
+ 000B40    47F0315E C4D4E2E2 E3C7C3E2 8000FFFF FFFFFFFF FFFF1BFF 56F03218 0ACC0700   *.0.;DMSSTGCS.............0......*
+ 000B60    41002000 4DF03174 80000000 5810F000 0A0812FF 477031A6 41103188 47F0319A   *....(0........0........w...h.0..*
+ 000B80    C4D4E2E2 E3C7C3E2 0000FFFF FFFFFFFF FFFF1BFF 56F03218 0ACC47F0 31D20700   *DMSSTGCS.............0.....0.K..*
+ 000BA0    411031B0 47F031C2 C4D4E2E2 E3C7C3E2 0000FFFF FFFFFFFF FFFF1BFF 56F03218   *.....0.BDMSSTGCS.............0..*
+ 000BC0    0ACC4100 20001B11 0A0812FF A7740008 A56A8000 A7F40004 58001018 18F01804   *............x...v|..x4.......0..*
+ 000BE0    18151826 07FFA7F4 00121804 18151826 58600010 58660000 58660004 58660144   *......x4.........-..............*
+ 000C00    BF6F6000 58F06024 07FF0000 00000000 0000A000 00000000 00000000 00000000   *.?-..0-.........................*
+ 000C20    7FFFFFFF 80000000 80000720 00000000 20CE9000 00000C5C 00000000 00000000   *"......................*........*
+ 000C40    00000000 00000000 00000000 00200000 0008C3C5 C5C2D7C9 D9C10000 01000001   *..................CEEBPIRA......*
+ 000C60    00000000 00000000 00000014 000009F8 F2F0F1F9 F0F3F1F2 F1F2F5F5 F0F0F0F2   *...............82019031212550002*
+ 000C80    F0F4F0F0 0007C8D3 C5F7F7C3 F0000000 07000000 00000000                     *0400..HLE77C0...........        *
+0RECORD# 12    TYPE 02 - RLD                                   RLD SIZE 232  RLD/CTL COUNT 0
+0              R-PTR  P-PTR    FL  ADDR   FL  ADDR   FL  ADDR   FL  ADDR   FL  ADDR   FL  ADDR
+                   1      1    0D 000018  0C 000060
+                   2      1    1C 00002C
+                   3      1    9C 000068
+                   4      1    1C 000074
+                   5      1    1C 000078
+                   9      6    1C 0001D4
+                  10      6    1C 0001D8
+                  11      6    1C 0001DC
+                  12      6    1C 0002A4
+                   7      6    1C 0002A8
+                   6      6    0E 00034C
+                   1      6    0C 00034C
+                   8      2    1C 000364
+                  13      2    1C 000368
+                  15     14    8C 00037C
+                  16     14    8C 000380
+                  17     14    8C 000388
+                  18     14    8C 0003B8
+                  19     14    8C 0003BC
+                  20     14    8C 0003C0
+                  21     14    8C 0003C4
+                  22     14    8C 000450
+                   2     13    0D 0004A0  0C 0004AC
+                   1     13    1C 0004B0
+                   4     13    1C 0004B4
+                  28      5    8C 0006C8
+                  29      5    1C 0006CC
+                  30      5    8C 0006D0
+1                                        LISTING OF LOAD MODULE REFDAISY                                    PAGE 0006
+
+0RECORD# 13    TYPE 02 - RLD                                   RLD SIZE 236  RLD/CTL COUNT 0
+0              R-PTR  P-PTR    FL  ADDR   FL  ADDR   FL  ADDR   FL  ADDR   FL  ADDR   FL  ADDR
+                   3      5    8C 0006D4
+                  31      5    1C 0006D8
+                  32      5    8C 0006DC
+                  33      5    8C 0006E0
+                  34      5    8C 0006E4
+                  35      5    8C 0006E8
+                   2      5    0C 0006EC
+                  36      4    9C 0006FC
+                  37      4    1C 000700
+                  38      4    1C 000704
+                  39      4    9C 000708
+                  40      4    1C 00070C
+                  41      4    1C 000714
+                  42      4    9C 000718
+                  41     41    0D 000738  0C 00073C
+                  41     40    0C 0007FC
+                  38     38    0C 0008E4
+                  45     38    8C 0008E8
+                  46     38    8C 0008EC
+                  47     38    8C 0008F0
+                  14     38    0C 0008F4
+                  48     38    8C 0008F8
+                  49     38    8C 0008FC
+                  50     38    8C 000900
+                  51     38    8C 000904
+                  52     38    8C 000908
+                  53     38    8C 00090C
+                  32     38    8C 000910
+                  54     38    8C 000914
+0RECORD# 14    TYPE 0E - RLD                                   RLD SIZE 60   RLD/CTL COUNT 0
+0              R-PTR  P-PTR    FL  ADDR   FL  ADDR   FL  ADDR   FL  ADDR   FL  ADDR   FL  ADDR
+                  55     38    8C 000918
+                  56     38    8C 00091C
+                  57     38    8C 000920
+                  58     38    8C 000924
+                  59     38    8C 000928
+                  41     60    0C 000C28
+                  60     60    0D 000C34  0C 000C6C
+- ******END OF LOAD MODULE LISTING
+1                             NUMERICAL MAP AND CROSS-REFERENCE LIST OF LOAD MODULE REFDAISY                    PAGE 0001
+
+-                 CONTROL SECTION                                        ENTRY
+                   LMOD LOC     NAME      LENGTH  TYPE  RMODE             LMOD LOC  CSECT LOC      NAME
+0                       00    CEESTART        7C   SD    31
+                        80   $PRIVATE        2E0   PC    31
+                                                                              118        98      BYREF
+                                                                              1E0       160      MAIN
+                       360    CEEMAIN         0C   SD    31
+                       370    CEESG003       12B   SD    31
+                       4A0    EDCINPL         24   SD    31
+                       4C8    printf          0A   SD    31
+                                                                              4C8        00      PRINTF
+                       4D8    fclose          0A   SD    31
+                                                                              4D8        00      FCLOSE
+                       4E8    fgets           0A   SD    31
+                                                                              4E8        00      FGETS
+                       4F8    fopen           0A   SD    31
+                                                                              4F8        00      FOPEN
+                       508    CEEROOTA       1F0   SD    31
+                                                                              508        00      CEEROOTD
+                       6F8    CEEBETBL        28   SD    31
+                       720    CEEBPUBT        70   SD    31
+                       790    CEEBTRM         74   SD    31
+                       808    CEECPYRT        CF   SD    31
+                       8D8    CEEBLLST        5C   SD    31
+                                                                              8E8        10      CEELLIST
+                       938    CEEBINT         08   SD    31
+                       940    CEEARLU         B8   SD    31
+                       9F8    CEEBPIRA       2A0   SD    31
+                                                                              9F8        00      CEEINT
+                                                                              9F8        00      CEEBPIRB
+                                                                              9F8        00      CEEBPIRC
+-------------------------------------------------------------------------------------------------------------------------
+-      LMOD LOC  CSECT LOC    IN CSECT              REFERS TO SYMBOL  AT LMOD LOC  CSECT LOC    IN CSECT
+0           2C        2C      CEESTART                  CEEMAIN             360         00      CEEMAIN
+            68        68      CEESTART                  CEEFMAIN                               $UNRESOLVED(W)
+            74        74      CEESTART                  CEEBETBL            6F8         00      CEEBETBL
+            78        78      CEESTART                  CEEROOTA            508         00      CEEROOTA
+           1D4       154     $PRIVATE                   FOPEN               4F8         00      fopen
+           1D8       158     $PRIVATE                   FGETS               4E8         00      fgets
+           1DC       15C     $PRIVATE                   FCLOSE              4D8         00      fclose
+           2A4       224     $PRIVATE                   PRINTF              4C8         00      printf
+           2A8       228     $PRIVATE                   BYREF               118         98     $PRIVATE
+           34C       2CC     $PRIVATE                   CEESTART             00         00      CEESTART
+           364        04      CEEMAIN                   MAIN                1E0        160     $PRIVATE
+           368        08      CEEMAIN                   EDCINPL             4A0         00      EDCINPL
+           37C        0C      CEESG003                  @@XINIT@                               $UNRESOLVED(W)
+           380        10      CEESG003                  @@INIT@                                $UNRESOLVED(W)
+           388        18      CEESG003                  CTDLI                                  $UNRESOLVED(W)
+1                             NUMERICAL MAP AND CROSS-REFERENCE LIST OF LOAD MODULE REFDAISY                    PAGE 0002
+
+-      LMOD LOC  CSECT LOC    IN CSECT              REFERS TO SYMBOL  AT LMOD LOC  CSECT LOC    IN CSECT
+0          3B8        48      CEESG003                  @@DLL                                  $UNRESOLVED(W)
+           3BC        4C      CEESG003                  @@DLLUX                                $UNRESOLVED(W)
+           3C0        50      CEESG003                  @@DLLI                                 $UNRESOLVED(W)
+           3C4        54      CEESG003                  CBCSG003                               $UNRESOLVED(W)
+           450        E0      CEESG003                  @@PPA2                                 $UNRESOLVED(W)
+           4A0        00      EDCINPL                   CEEMAIN             360         00      CEEMAIN
+           4AC        0C      EDCINPL                   CEEMAIN             360         00      CEEMAIN
+           4B0        10      EDCINPL                   CEESTART             00         00      CEESTART
+           4B4        14      EDCINPL                   CEEBETBL            6F8         00      CEEBETBL
+           6C8       1C0      CEEROOTA                  CEEROOTB                               $UNRESOLVED(W)
+           6CC       1C4      CEEROOTA                  CEEINT              9F8         00      CEEBPIRA
+           6D0       1C8      CEEROOTA                  CEEOPIPI                               $UNRESOLVED(W)
+           6D4       1CC      CEEROOTA                  CEEFMAIN                               $UNRESOLVED(W)
+           6D8       1D0      CEEROOTA                  CEEARLU             940         00      CEEARLU
+           6DC       1D4      CEEROOTA                  CEESG010                               $UNRESOLVED(W)
+           6E0       1D8      CEEROOTA                  IBMSEMNA                               $UNRESOLVED(W)
+           6E4       1DC      CEEROOTA                  EDCDMAIN                               $UNRESOLVED(W)
+           6E8       1E0      CEEROOTA                  PLIMAIN                                $UNRESOLVED(W)
+           6EC       1E4      CEEROOTA                  CEEMAIN             360         00      CEEMAIN
+           6FC        04      CEEBETBL                  CEEBXITA                               $UNRESOLVED(W)
+           700        08      CEEBETBL                  CEEBINT             938         00      CEEBINT
+           704        0C      CEEBETBL                  CEEBLLST            8D8         00      CEEBLLST
+           708        10      CEEBETBL                  CEEUOPT                                $UNRESOLVED(W)
+           70C        14      CEEBETBL                  CEEBTRM             790         00      CEEBTRM
+           714        1C      CEEBETBL                  CEEBPUBT            720         00      CEEBPUBT
+           718        20      CEEBETBL                  IEWBLIT                                $UNRESOLVED(W)
+           7FC        6C      CEEBTRM                   CEEBPUBT            720         00      CEEBPUBT
+           8E8        10      CEEBLLST                  CEESG000                               $UNRESOLVED(W)
+           8EC        14      CEEBLLST                  CEESG001                               $UNRESOLVED(W)
+           8F0        18      CEEBLLST                  CEESG002                               $UNRESOLVED(W)
+           8F4        1C      CEEBLLST                  CEESG003            370         00      CEESG003
+           8F8        20      CEEBLLST                  CEESG004                               $UNRESOLVED(W)
+           8FC        24      CEEBLLST                  CEESG005                               $UNRESOLVED(W)
+           900        28      CEEBLLST                  CEESG006                               $UNRESOLVED(W)
+           904        2C      CEEBLLST                  CEESG007                               $UNRESOLVED(W)
+           908        30      CEEBLLST                  CEESG008                               $UNRESOLVED(W)
+           90C        34      CEEBLLST                  CEESG009                               $UNRESOLVED(W)
+           910        38      CEEBLLST                  CEESG010                               $UNRESOLVED(W)
+           914        3C      CEEBLLST                  CEESG011                               $UNRESOLVED(W)
+           918        40      CEEBLLST                  CEESG012                               $UNRESOLVED(W)
+           91C        44      CEEBLLST                  CEESG013                               $UNRESOLVED(W)
+           920        48      CEEBLLST                  CEESG014                               $UNRESOLVED(W)
+           924        4C      CEEBLLST                  CEESG015                               $UNRESOLVED(W)
+           928        50      CEEBLLST                  CEESG016                               $UNRESOLVED(W)
+           C28       230      CEEBPIRA                  CEEBPUBT            720         00      CEEBPUBT
+0LENGTH OF LOAD MODULE     C98
+1                                        ALPHABETICAL MAP OF LOAD MODULE REFDAISY                               PAGE 0003
+
+-           CONTROL SECTION                                        ENTRY
+                NAME     LMOD LOC   LENGTH  TYPE   RMODE              NAME    LMOD LOC  CSECT LOC  CSECT NAME
+0            $PRIVATE         80       2E0   PC     31
+              fclose         4D8        0A   SD     31
+              fgets          4E8        0A   SD     31
+              fopen          4F8        0A   SD     31
+              printf         4C8        0A   SD     31
+                                                                    BYREF          118      98        $PRIVATE
+              CEEARLU        940        B8   SD     31
+              CEEBETBL       6F8        28   SD     31
+              CEEBINT        938        08   SD     31
+              CEEBLLST       8D8        5C   SD     31
+              CEEBPIRA       9F8       2A0   SD     31
+                                                                    CEEBPIRB       9F8      00        CEEBPIRA
+                                                                    CEEBPIRC       9F8      00        CEEBPIRA
+              CEEBPUBT       720        70   SD     31
+              CEEBTRM        790        74   SD     31
+              CEECPYRT       808        CF   SD     31
+                                                                    CEEINT         9F8      00        CEEBPIRA
+                                                                    CEELLIST       8E8      10        CEEBLLST
+              CEEMAIN        360        0C   SD     31
+              CEEROOTA       508       1F0   SD     31
+                                                                    CEEROOTD       508      00        CEEROOTA
+              CEESG003       370       12B   SD     31
+              CEESTART        00        7C   SD     31
+              EDCINPL        4A0        24   SD     31
+                                                                    FCLOSE         4D8      00        fclose
+                                                                    FGETS          4E8      00        fgets
+                                                                    FOPEN          4F8      00        fopen
+                                                                    MAIN           1E0     160        $PRIVATE
+                                                                    PRINTF         4C8      00        printf
+1                               ALPHABETICAL CROSS-REFERENCE LIST OF LOAD MODULE REFDAISY                       PAGE 0004
+
+-  SYMBOL   AT LMOD LOC  CSECT LOC    IN CSECT              IS REFERRED TO BY LMOD LOC  CSECT LOC    IN CSECT
+0 @@DLL                              $UNRESOLVED(W)                       3B8                48      CEESG003
+  @@DLLI                             $UNRESOLVED(W)                       3C0                50      CEESG003
+  @@DLLUX                            $UNRESOLVED(W)                       3BC                4C      CEESG003
+  @@INIT@                            $UNRESOLVED(W)                       380                10      CEESG003
+  @@PPA2                             $UNRESOLVED(W)                       450                E0      CEESG003
+  @@XINIT@                           $UNRESOLVED(W)                       37C                0C      CEESG003
+  BYREF           118         98     $PRIVATE                             2A8               228     $PRIVATE
+  CBCSG003                           $UNRESOLVED(W)                       3C4                54      CEESG003
+  CEEARLU         940         00      CEEARLU                             6D8               1D0      CEEROOTA
+  CEEBETBL        6F8         00      CEEBETBL                             74                74      CEESTART
+  CEEBETBL        6F8         00      CEEBETBL                            4B4                14      EDCINPL
+  CEEBINT         938         00      CEEBINT                             700                08      CEEBETBL
+  CEEBLLST        8D8         00      CEEBLLST                            704                0C      CEEBETBL
+  CEEBPUBT        720         00      CEEBPUBT                            714                1C      CEEBETBL
+  CEEBPUBT        720         00      CEEBPUBT                            7FC                6C      CEEBTRM
+  CEEBPUBT        720         00      CEEBPUBT                            C28               230      CEEBPIRA
+  CEEBTRM         790         00      CEEBTRM                             70C                14      CEEBETBL
+  CEEBXITA                           $UNRESOLVED(W)                       6FC                04      CEEBETBL
+  CEEFMAIN                           $UNRESOLVED(W)                        68                68      CEESTART
+  CEEFMAIN                           $UNRESOLVED(W)                       6D4               1CC      CEEROOTA
+  CEEINT          9F8         00      CEEBPIRA                            6CC               1C4      CEEROOTA
+  CEEMAIN         360         00      CEEMAIN                              2C                2C      CEESTART
+  CEEMAIN         360         00      CEEMAIN                             4A0                00      EDCINPL
+  CEEMAIN         360         00      CEEMAIN                             4AC                0C      EDCINPL
+  CEEMAIN         360         00      CEEMAIN                             6EC               1E4      CEEROOTA
+  CEEOPIPI                           $UNRESOLVED(W)                       6D0               1C8      CEEROOTA
+  CEEROOTA        508         00      CEEROOTA                             78                78      CEESTART
+  CEEROOTB                           $UNRESOLVED(W)                       6C8               1C0      CEEROOTA
+  CEESG000                           $UNRESOLVED(W)                       8E8                10      CEEBLLST
+  CEESG001                           $UNRESOLVED(W)                       8EC                14      CEEBLLST
+  CEESG002                           $UNRESOLVED(W)                       8F0                18      CEEBLLST
+  CEESG003        370         00      CEESG003                            8F4                1C      CEEBLLST
+  CEESG004                           $UNRESOLVED(W)                       8F8                20      CEEBLLST
+  CEESG005                           $UNRESOLVED(W)                       8FC                24      CEEBLLST
+  CEESG006                           $UNRESOLVED(W)                       900                28      CEEBLLST
+  CEESG007                           $UNRESOLVED(W)                       904                2C      CEEBLLST
+  CEESG008                           $UNRESOLVED(W)                       908                30      CEEBLLST
+  CEESG009                           $UNRESOLVED(W)                       90C                34      CEEBLLST
+  CEESG010                           $UNRESOLVED(W)                       6DC               1D4      CEEROOTA
+  CEESG010                           $UNRESOLVED(W)                       910                38      CEEBLLST
+  CEESG011                           $UNRESOLVED(W)                       914                3C      CEEBLLST
+  CEESG012                           $UNRESOLVED(W)                       918                40      CEEBLLST
+  CEESG013                           $UNRESOLVED(W)                       91C                44      CEEBLLST
+  CEESG014                           $UNRESOLVED(W)                       920                48      CEEBLLST
+  CEESG015                           $UNRESOLVED(W)                       924                4C      CEEBLLST
+  CEESG016                           $UNRESOLVED(W)                       928                50      CEEBLLST
+  CEESTART         00         00      CEESTART                            34C               2CC     $PRIVATE
+  CEESTART         00         00      CEESTART                            4B0                10      EDCINPL
+  CEEUOPT                            $UNRESOLVED(W)                       708                10      CEEBETBL
+  CTDLI                              $UNRESOLVED(W)                       388                18      CEESG003
+  EDCDMAIN                           $UNRESOLVED(W)                       6E4               1DC      CEEROOTA
+  EDCINPL         4A0         00      EDCINPL                             368                08      CEEMAIN
+1                               ALPHABETICAL CROSS-REFERENCE LIST OF LOAD MODULE REFDAISY                       PAGE 0005
+
+-  SYMBOL   AT LMOD LOC  CSECT LOC    IN CSECT              IS REFERRED TO BY LMOD LOC  CSECT LOC    IN CSECT
+0 FCLOSE          4D8         00      fclose                              1DC               15C     $PRIVATE
+  FGETS           4E8         00      fgets                               1D8               158     $PRIVATE
+  FOPEN           4F8         00      fopen                               1D4               154     $PRIVATE
+  IBMSEMNA                           $UNRESOLVED(W)                       6E0               1D8      CEEROOTA
+  IEWBLIT                            $UNRESOLVED(W)                       718                20      CEEBETBL
+  MAIN            1E0        160     $PRIVATE                             364                04      CEEMAIN
+  PLIMAIN                            $UNRESOLVED(W)                       6E8               1E0      CEEROOTA
+  PRINTF          4C8         00      printf                              2A4               224     $PRIVATE
+-**    END OF MAP AND CROSS-REFERENCE LISTING
