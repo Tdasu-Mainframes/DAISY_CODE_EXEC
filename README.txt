@@ -1,4 +1,28 @@
 # DAISY_CODE_EXEC
+
+zOS doesnt have a stack it has Dynamic storage area (DSA), basically each function has it own stack which has a pointer to the stack for the function that called it
+
+DSA is made up of these components:
+save area back chain
+saved registers
+next avialable byte
+variables
+
+When you call a function it uses the "next aviable byte" (NAB) to make a new DSA below the current
+
+If you overflow a variable defined in the function, nothing gets overwritten, it just goes into empty space (DSA is below code)
+
+To get code exec you need to be editing a variable from a DSA above the current
+
+Then all you need to do is overflow into the "save area back chain" to point to your payload (all memory is executable and there is no stack canaries)
+
+You know if your close to getting code exec if you get this abend.
+USER ABEND CODE 4083 - The back chain was found in error.
+
+You know if you changed the return address is you get this abend
+SYSTEM ABEND CODE 0C1 -  Operation Exception (you get this when the compiler cant decode the instruction)
+
+
 IMPORTANT:THE JCL HAS BINARY IN IN, IT NEEDS TO BE UPLOADED WITH BINARY NOT ASCII
 
 STER 1
