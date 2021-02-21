@@ -1,0 +1,17 @@
+//COMPC  JOB (JOBNAME),'XSS',CLASS=A,NOTIFY=&SYSUID
+//PROC JCLLIB ORDER=(CBC.SCCNPRC)
+//*-------------------------------------------------------------------
+//* Compile and bind step
+//*-------------------------------------------------------------------
+//COMP     EXEC EDCCB,
+//         OUTFILE='JAKE.TSOTEST.LOADE(REFDAISY),DISP=SHR',
+//         CPARM='ASM'
+//STEPLIB  DD DSN=CBC.SCCNCMP,DISP=SHR
+//         DD DSN=CEE.SCEERUN,DISP=SHR
+//         DD DSN=CEE.SCEERUN2,DISP=SHR
+//COMPILE.SYSIN DD DSN=JAKE.SOURCE.C(REFDAISY),DISP=SHR
+//*-------------------------------------------------------------------
+//* Run step
+//*-------------------------------------------------------------------
+//GO       EXEC PGM=REFDAISY
+//STEPLIB  DD DSN=JAKE.TSOTEST.LOADE,DISP=SHR
