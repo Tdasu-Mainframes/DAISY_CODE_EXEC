@@ -14,7 +14,7 @@ If you overflow a variable defined in the function, nothing gets overwritten, it
 
 To get code exec you need to be editing a variable from a DSA above the current
 
-Then all you need to do is overflow into the "save area back chain" to point to your payload (all memory is executable and there is no stack canaries)
+Then all you need to do is overflow into the r14 (return address) to point to your payload (all memory is executable and there is no stack canaries)
 
 You know if your close to getting code exec if you get this abend.
 USER ABEND CODE 4083 - The back chain was found in error.
